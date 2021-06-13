@@ -1,0 +1,253 @@
+.Container-signup{
+    overflow: hidden;
+    background: url("../../assets/ProfileAsset/bg-signup.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+
+    .Container-signup-bg{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(261.91deg, rgba(19, 21, 32, 0.8) 44.16%, rgba(70, 162, 158, 0.3) 95.71%);
+      animation: gradient 15s ease infinite;
+      background-size: 400% 400%;
+      }
+    
+    .page-container-signup{
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    .content-wrap-signup{
+      flex: 1;
+    }
+    
+    
+      .Wrapper-signup{
+        background: transparent;
+        width: 100%;
+        height: 100%;
+        display: flex;
+      }
+
+.logo_signup{
+    position: relative;
+    top: 300px;
+    left: -500px;
+}
+    
+.boxchoice{
+    position: relative;
+    right: 360px;
+    top: 90px;
+    border-radius: 35px;
+    height: 650px;
+    width:  560px;
+    background-color: rgba(102,252,240,0.78);
+    font-size:23px;
+    margin-bottom: 145px;
+  }
+  
+  .boxchoice h1{
+    position: relative;
+    bottom: 30px;
+    left: 112px;
+    font-size:50pt;
+    color:#FFFFFF;
+    font-weight:600;
+  }
+  
+  form .txt_field_signup{
+    position: relative;
+    left: 60px;
+    bottom: 85px;
+    margin: 30px 0;
+  }
+
+  .txt_field_signup input{
+    width : 400px;
+    height : 50px;
+    padding : 0px 15px;
+    font-size: 20px;
+    border:#ffffff;
+    border-width: 20px;
+    border-radius: 3px;
+  }
+  
+  .txt_field_signup label{
+    position: absolute;
+    top: 65%;
+    left: 320px;
+    color: #a5a5a5;
+    transform: translateY(-50%);
+    font-size: 18px;
+    font-weight: 400;
+    pointer-events: none;
+  }
+
+  .txt_field_signup label1{
+    position: absolute;
+    top: 65%;
+    left: 328px;
+    color: #a5a5a5;
+    transform: translateY(-50%);
+    font-size: 18px;
+    font-weight: 400;
+    pointer-events: none;
+  }
+  
+  .txt_field_signup labelage{
+    position: absolute;
+    top: 65%;
+    left: 385px;
+    color: #a5a5a5;
+    transform: translateY(-50%);
+    font-size: 18px;
+    font-weight: 400;
+    pointer-events: none;
+  }
+
+  .txt_field_signup label2{
+    position: absolute;
+    top: 65%;
+    left: 350px;
+    color: #a5a5a5;
+    transform: translateY(-50%);
+    font-size: 18px;
+    font-weight: 400;
+    pointer-events: none;
+  }
+  
+  .txt_field_signup label3{
+    position: absolute;
+    top: 65%;
+    left: 323px;
+    color: #a5a5a5;
+    transform: translateY(-50%);
+    font-size: 18px;
+    font-weight: 400;
+    pointer-events: none;
+  }
+
+  .txt_field_signup label4{
+    position: absolute;
+    top: 65%;
+    left: 276px;
+    color: #a5a5a5;
+    transform: translateY(-50%);
+    font-size: 18px;
+    font-weight: 400;
+    pointer-events: none;
+  }
+
+  .txt_field_signup input:focus ~ label-signup,
+  .txt_field_signup input:valid ~ label-signup{
+    color:#585858;
+    border-color: #757575;
+  }
+
+  .txt_field_signup input:focus ~ label1{
+    color:#585858;
+    border-color: #757575;
+  }
+
+  .txt_field_signup input:focus ~ label2{
+    color:#585858;
+    border-color: #757575;
+  }
+
+  .txt_field_signup input:focus ~ label3{
+    color:#585858;
+    border-color: #757575;
+  }
+
+  .txt_field_signup input:focus ~ label4{
+    color:#585858;
+    border-color: #757575;
+  }
+  
+  .txt_field_signup input:focus ~ labelage{
+    color:#585858;
+    border-color: #757575;
+  }
+
+  .submitButton_signup{
+    position: relative;
+    bottom: 100px;
+    left: 370px;
+    transform: scale(0.85);
+    background: none;
+    border: none;
+  }
+
+  .submitButton_signup button{
+    background: none;
+    border: none;
+  }
+
+.submitButton_signup button:hover{
+  transform: scale(1.06);
+  transition: all 0.2s ease-in-out;
+}
+
+.logofm{
+    align-items: center;
+    position: relative;
+    left:540.5px;
+    scale: 0.8;
+}
+
+.PENCETAN{
+  position: relative;
+  top: 580px;
+  right: 470px;
+  align-items: center;
+}
+
+.button{
+  align-items: baseline;
+  background-color: #252525;
+  border: none;
+  border-radius: 5px;
+  height: 90px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor:pointer;
+}
+
+.button img:hover{
+  transform: scale(1.06);
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover{
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+}
+
+.button:focus{
+  background-color: #46A29E;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

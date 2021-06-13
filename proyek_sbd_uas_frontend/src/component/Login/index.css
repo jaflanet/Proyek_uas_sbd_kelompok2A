@@ -1,0 +1,146 @@
+.LOGO_FM:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .InfoText{
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    width: max-content;
+    display: flex;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .centered2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .left{
+    left:0;
+  }
+  
+  .right{
+    right:0;
+  }
+  
+  .LoginPop{
+    padding-top: 75px;
+    padding-left: 45px;
+    border-radius: 35px;
+    height: 615px;
+    width:  575px;
+    background-color: rgba(102,252,240,0.78);
+    font-size:23px;
+    color:#FFFFFF;
+  }
+  
+  .LoginPop h1{
+    font-size:60pt;
+    color:#FFFFFF;
+    padding-bottom: 45px;
+    font-weight:600;
+  }
+  
+  form .txt_field{
+    position: relative;
+    margin: 30px 0;
+  }
+  
+  .txt_field input{
+    width : 495px;
+    height : 70px;
+    padding : 0px 15px;
+    font-size: 28px;
+    border:#ffffff;
+    border-width: 20px;
+    border-radius: 10px;
+  }
+  
+  .txt_field label{
+    position: absolute;
+    top: 65%;
+    left: 400px;
+    color: #a5a5a5;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: 400;
+    pointer-events: none;
+  }
+  
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label{
+    color:#585858;
+    border-color: #757575;
+  }
+  
+  .submitButton{
+    position: relative;
+    left: 437px;
+  }
+  
+  .pass{
+    position:relative;
+    top: 90px;
+    left: 7px;
+  }
+  
+  .aboutUs{
+    font-size: 20pt;
+    color: #FFFFFF;
+    opacity: 80%;
+}
+
+.Container{
+    overflow: hidden;
+  background: #EEFCFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  }
+  
+  .page-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content-wrap{
+    flex: 1;
+  }
+  
+    .Wrapper{
+      background-image: url("../../assets/LoginAsset/Frame_1.png");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      display: flex;
+    }

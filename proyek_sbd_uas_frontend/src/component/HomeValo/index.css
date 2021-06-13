@@ -1,0 +1,245 @@
+
+.tulisancolvalo1{
+    font-size:24pt;
+    color:white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.valoMainContainer
+{
+  width:100%;
+  min-width:100%;
+  max-width:100%;
+  height:90%;
+  height:95vh;
+  min-height:95%;
+  overflow:hidden;
+  display: -webkit-flex;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-self:auto;
+  align-items:flex-start;
+  align-content:flex-start;
+  background-image: url("../../assets/HomeML/HOME.png");
+  background-size: cover;
+}
+
+.gradient-valo{
+  width:100%;
+  min-width:100%;
+  max-width:100%;
+  height:90%;
+  height:95vh;
+  min-height:95%;
+  overflow:hidden;
+  margin:0;
+  display: -webkit-flex;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-self:auto;
+  align-items:flex-start;
+  align-content:flex-start;
+    background: rgb(0,0,0);
+    background: linear-gradient(261.91deg, rgba(19, 21, 32, 0.8) 44.16%, rgba(70, 162, 158, 0.3) 95.71%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+.valoLeftSidebarContainer
+{   
+  margin: 0 auto;
+  width:85%;
+  min-width:85%;
+  max-width:85%;
+  height:35%;
+  min-height:35%;
+  overflow:hidden;
+  padding:1%;
+  background-color:#46A29E;
+  margin-top:1%;
+  padding-left: 5%;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.valoListCol{
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.valoMainContentContainer
+{
+    margin: 0 auto;
+    width:85%;
+    min-width:85%;
+    max-width:85%;
+    height:55.5%;
+    min-height:55.5%;
+    overflow:hidden;
+    padding:1%;
+    background-color:#46A29E;
+    margin-top:1%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.radiovalo1{
+    font-size: 10pt;
+    display: flex; 
+    position: relative;
+    margin: 0 auto;
+    margin-left: 15%;
+}
+
+.formulirvalo1{
+    font-size: 12pt;
+    display:flex;
+    width: 60%;
+    margin-left: 23%;
+    height: 15%;
+}
+
+.formulirvalo1 input{
+  border-radius: 5px;
+  height: 35px;
+  width: 330px;
+}
+
+.input-valo{
+    border: 0px;
+    height: 5vh;
+}
+
+.button-valo{
+    border-radius: 4px;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    display: block;
+    width: 15%;
+    height: 5vh;
+    
+
+}
+
+.button-valo:hover {
+  transition: all 0.3s ease-in-out;
+  background: #1f2833;
+  color: white;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.col-hasil1{
+  float: left;
+  margin-left: 5%;
+  background-color: red;
+  color: azure;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 7%;
+  height: 6vh;
+  text-align: center;
+  padding-top: 1%;
+  display: flex;
+  font-size: 10pt;
+}
+
+.col-hasil2{
+  float: left;
+  margin-left: 5%;
+  background-color: green;
+  color: azure;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 7%;
+  height: 6vh;
+  text-align: center;
+  padding-top: 1%;
+  display: flex;
+}
+
+.col-hasil3{
+  float: left;
+  margin-left: 5%;
+  background-color:#DBA800;
+  color: azure;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 7%;
+  height: 6vh;
+  text-align: center;
+  padding-top: 1%;
+  display: flex;
+}
+
+.col-hasil4{
+  float: left;
+  margin-left: 5%;
+  background-color:#00389F;
+  color: azure;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 7%;
+  height: 6vh;
+  text-align: center;
+  padding-top: 1%;
+  display: flex;
+}
+.col-hasiljudul{
+  float: left;
+  margin-left: 5%;
+  background-color: transparent;
+  color: azure;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 7%;
+  height: 6vh;
+  text-align: center;
+  padding-top: 1%;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+
+.col-dalem-tulisan{
+  margin-top: 20%;
+  margin:0 auto;
+}
+
+.col-space{
+  display: block;
+}
+
+.col-atas-1{
+  width: 100%;
+  display: flex;
+}

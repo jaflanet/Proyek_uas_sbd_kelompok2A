@@ -1,0 +1,98 @@
+.main-footer{
+    color:white;
+    background-color: #70aca8;
+    font-size: 18pt;
+    font-weight: 400;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.col1{
+    float:left;
+    width: 20%;
+    padding: 10px;
+}
+
+.col2{
+    float:left;
+    width: 12%;
+    padding: 10px;
+    justify-content: center;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.colpisah{
+    float:left;
+    width: 12%;
+    padding: 10px;
+}
+
+.col3{
+    float:left;
+    width: 20%;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.tulisan-kecil{
+    position: relative;
+    width:110%;
+}
+
+.row{
+    display: flex;
+    height: 100px;
+}
+
+.insta{
+    position: relative;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.twitter{
+    position: relative;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.twitch{
+    position: relative;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.insta:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.twitter:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.twitch:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.tulisan-kecil:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+.btn-aboutus{
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

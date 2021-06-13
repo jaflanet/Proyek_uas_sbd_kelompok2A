@@ -1,0 +1,80 @@
+form .txt_field_signidML{
+    position: relative;
+    right: 52px;
+    margin-bottom: 3px;
+}
+
+.txt_field_signidML input{
+    position: relative;
+    left: 37px;
+    width : 425px;
+    height : 30px;
+    font-size: 16px;
+    border: 1px solid #cacaca;
+    border-radius: 3px;
+}
+.idlabelML{
+    position: relative;
+    bottom:30px;
+    left: 55px;
+}
+
+form .txt_field_usernameML{
+    position: relative;
+    right: 82px;
+    margin-bottom: 3px;
+    top: 27px;
+}
+
+.txt_field_usernameML input{
+    position: relative;
+    right: 44px;
+    width : 425px;
+    height : 30px;
+    font-size: 16px;
+    border: 1px solid #cacaca;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.usernameingamelabelML{
+    position: relative;
+    bottom: 30px;
+    left: 84px;
+}
+
+form .txt_field_signusernameML{
+    position: relative;
+    right: 82px;
+    margin-bottom: 3px;
+    top: 27px;
+}
+
+.txt_field_signusernameML input{
+    width : 425px;
+    height : 30px;
+    font-size: 16px;
+    border: 1px solid #cacaca;
+    border-radius: 3px;
+}
+.usernamelabelML{
+    position: relative;
+    bottom:30px;
+    left: 83px;
+}
+
+.submitButton_signML button{
+    background:none;
+    border: none;
+    transform: scale(0.75);
+    position: relative;
+    left: 346px;
+    top: 23px;
+}
+
+.submitButton_signML button:hover{
+    transform: scale(0.8);
+    transition: all 0.2s ease-in-out;
+    border: none;
+    background: none;
+}
