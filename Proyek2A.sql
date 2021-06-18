@@ -409,13 +409,13 @@ COPY public.mobilelegend (id, usernameml, role, rank, usernameweb) FROM stdin;
 8675857	ararara	Marksman	Legend	Daffa
 190827	popo	Marksman	Grandmaster	Aidan
 5784325	Diha550	Mage	Epic	Diha
-234324	aidanbegobanget	Fighter	Warrior	Aidan
+234324	aidangantengbanget	Fighter	Warrior	Aidan
 190820	padem	Mage	Grandmaster	pademmm
 1982	ganteng	Marksman	Master	pademmm
 1972	pademmmmm	Mage	Epic	pademmm
 123123	hadikeren	Assasin	Warrior	hadikun
 1983	jongob	Fighter	Master	Karen
-12123	Aidanlonte	Fighter	Elite	Aidan
+12123	Aidankeren	Fighter	Elite	Aidan
 12345	akucantikgaes	Mage	Warrior	omarcantik
 12313	OMAR ANAK MAMAH	Mage	Master	OMARMOCH13
 \.
@@ -468,7 +468,7 @@ jav	23	Male	South America	Morning
 cobakaliini	16	Male	Northeastern Asia	Evening
 min	67	Female	Northeastern Asia	Evening
 pastibisa	37	Female	Eastern Europe	Afternoon
-dedegobs	15	Male	North America	Morning
+dedego	15	Male	North America	Morning
 hohoho	12	Male	North America	Morning
 jonagokil	23	Male	North America	Morning
 omarbuaya	23	Female	North America	Afternoon
@@ -503,7 +503,7 @@ fefef	Support	Diamond	Aidan
 Proplay	Support	Crown	Karen
 koko	Support	Diamond	Aidan
 Diha550	Support	Gold	Diha
-aidantolol	Rusher	Bronze	Aidan
+aidanto	Rusher	Bronze	Aidan
 boboho	Support	Crown	pademmm
 aduy	Support	Ace	Adi
 aduy123	Support	Ace	Adi
@@ -514,8 +514,8 @@ nutshooter	Rusher	Conqueror	hadikun
 bisadong	Support	Diamond	Karen
 hadigokil	Sniper	Bronze	hadikun
 cobatest	Support	Crown	Jon
-aidananjing	Scout	Silver	Aidan
-aidanbangsat	Rusher	Conqueror	Aidan
+aidankun	Scout	Silver	Aidan
+aidanbanget	Rusher	Conqueror	Aidan
 akucantiksekali	Rusher	Conqueror	omarcantik
 \.
 
